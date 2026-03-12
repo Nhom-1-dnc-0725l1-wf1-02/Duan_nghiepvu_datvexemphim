@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cinema-red: #e11d48;
+  --color-cinema-black: #0b0b0b;
+}
+
+body {
+  background-color: var(--color-cinema-black);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
